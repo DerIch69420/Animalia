@@ -1,5 +1,5 @@
 local love = require("love")
-local push = require("lib.push")
+local push = require("lib.push.push")
 
 local WINDOW_WIDTH, WINDOW_HEIGHT = 990, 512
 local VIRTUAL_WIDTH, VIRTUAL_HEIGHT = 990, 512
