@@ -24,6 +24,10 @@ function love.keypressed(key)
     stateManager.keypressed(key)
 end
 
+function love.mousepressed(x, y, button, istouch, presses)
+    stateManager.mousepressed(x, y, button, istouch, presses)
+end
+
 function love.update(dt)
     stateManager.update(dt)
 end
